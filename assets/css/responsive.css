@@ -1,0 +1,109 @@
+@media only screen and (min-width: 992px) and (max-width: 1500px) {
+}
+
+/* =========================================================================== */
+/* Large Device lg */
+/* =========================================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .main-content-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-content.content {
+    width: 100%;
+    justify-content: center;
+  }
+  .right-content.content {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/* =========================================================================== */
+/* Medium Device md */
+/* =========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .image-wrap .image:last-child {
+    display: none;
+  }
+
+  .title h2 {
+    font-size: 25px;
+  }
+
+  .main-content-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-content.content {
+    width: 100%;
+    justify-content: center;
+  }
+  .right-content.content {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/* @media only screen and (min-width: 768px) and (max-width: 810px) {
+
+
+} */
+
+/* =========================================================================== */
+/* Medium To Extra Small Device */
+/* =========================================================================== */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  .image-wrap .image:first-child {
+    display: none;
+  }
+  .image-wrap .image:last-child {
+    display: none;
+  }
+
+  .title h2 {
+    font-size: 25px;
+  }
+
+  .center-btn {
+    padding: 12px 50px;
+    transform: translate(-50%, -85px);
+  }
+
+  .main-content-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-content.content {
+    flex-direction: column;
+    margin-bottom: 30px;
+
+    width: 100%;
+    justify-content: center;
+  }
+  .right-content.content {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .content__desc {
+    margin-right: 30px;
+    z-index: 2;
+    margin-bottom: 30px;
+  }
+  .speed-img {
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+}
+
+/* Small Device sm */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+}
+
+/* Extra Small device */
+@media only screen and (max-width: 575px) {
+}
